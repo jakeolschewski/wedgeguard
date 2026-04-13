@@ -9,6 +9,7 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/jakeolschewski/wedgeguard/actions"><img src="https://github.com/jakeolschewski/wedgeguard/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="https://marketplace.visualstudio.com/items?itemName=wedgemethod.wedgeguard"><img src="https://img.shields.io/badge/VS%20Code-Marketplace-007ACC?logo=visualstudiocode&logoColor=white" alt="VS Code Marketplace"></a>
   <a href="https://github.com/jakeolschewski/wedgeguard/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT"></a>
   <a href="https://github.com/jakeolschewski/wedgeguard/stargazers"><img src="https://img.shields.io/github/stars/jakeolschewski/wedgeguard?style=social" alt="Stars"></a>
