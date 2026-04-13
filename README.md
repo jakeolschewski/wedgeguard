@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="media/icon.svg" width="120" alt="WedgeGuard Logo">
-</p>
-
 <h1 align="center">WedgeGuard</h1>
 
 <p align="center">
