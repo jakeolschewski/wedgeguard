@@ -1,0 +1,89 @@
+{
+  "name": "wedgeguard",
+  "displayName": "WedgeGuard",
+  "description": "Local AI coding agent that respects your Wedges forever. Lock code, build with AI, keep your intent.",
+  "version": "0.1.0",
+  "publisher": "wedgemethod",
+  "author": {
+    "name": "WEDGE Method LLC",
+    "email": "hello@thewedgemethodai.com",
+    "url": "https://thewedgemethodai.com"
+  },
+  "license": "MIT",
+  "engines": { "vscode": "^1.85.0" },
+  "categories": ["AI", "Other"],
+  "keywords": ["ai", "coding-assistant", "ollama", "local-ai", "code-protection", "wedge"],
+  "activationEvents": ["onStartupFinished"],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      { "command": "wedgeguard.createWedge", "title": "WedgeGuard: Create Wedge", "icon": "$(lock)" },
+      { "command": "wedgeguard.removeWedge", "title": "WedgeGuard: Remove Wedge" },
+      { "command": "wedgeguard.clearAllWedges", "title": "WedgeGuard: Clear All Wedges" },
+      { "command": "wedgeguard.askAI", "title": "WedgeGuard: Ask AI (Wedge-Aware)" },
+      { "command": "wedgeguard.showVault", "title": "WedgeGuard: Show Wedge Vault" },
+      { "command": "wedgeguard.exportWedges", "title": "WedgeGuard: Export Wedges" },
+      { "command": "wedgeguard.importWedges", "title": "WedgeGuard: Import Wedges" }
+    ],
+    "menus": {
+      "editor/context": [
+        { "command": "wedgeguard.createWedge", "group": "wedgeguard@1", "when": "editorHasSelection" },
+        { "command": "wedgeguard.askAI", "group": "wedgeguard@2" }
+      ]
+    },
+    "viewsContainers": {
+      "activitybar": [
+        { "id": "wedgeguard-vault", "title": "WedgeGuard", "icon": "media/icon.svg" }
+      ]
+    },
+    "views": {
+      "wedgeguard-vault": [
+        { "id": "wedgeguard.vault", "name": "Wedge Vault" },
+        { "id": "wedgeguard.stats", "name": "Memory Stats" }
+      ]
+    },
+    "configuration": {
+      "title": "WedgeGuard",
+      "properties": {
+        "wedgeguard.ollamaUrl": {
+          "type": "string",
+          "default": "http://localhost:11434",
+          "description": "Ollama server URL"
+        },
+        "wedgeguard.model": {
+          "type": "string",
+          "default": "qwen2.5-coder:7b",
+          "description": "Ollama model to use for code generation"
+        },
+        "wedgeguard.embeddingModel": {
+          "type": "string",
+          "default": "nomic-embed-text",
+          "description": "Ollama model for embeddings"
+        },
+        "wedgeguard.maxWedgeContext": {
+          "type": "number",
+          "default": 10,
+          "description": "Maximum number of relevant wedges to include in AI context"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src/",
+    "package": "npx @vscode/vsce package"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.5.0",
+    "@vscode/vsce": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jakeolschewski/wedgeguard"
+  },
+  "homepage": "https://thewedgemethodai.com"
+}
