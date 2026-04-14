@@ -10,11 +10,19 @@
 
 <p align="center">
   <a href="https://github.com/jakeolschewski/wedgeguard/actions"><img src="https://github.com/jakeolschewski/wedgeguard/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=wedgemethod.wedgeguard"><img src="https://img.shields.io/badge/VS%20Code-Marketplace-007ACC?logo=visualstudiocode&logoColor=white" alt="VS Code Marketplace"></a>
-  <a href="https://github.com/jakeolschewski/wedgeguard/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT"></a>
-  <a href="https://github.com/jakeolschewski/wedgeguard/stargazers"><img src="https://img.shields.io/github/stars/jakeolschewski/wedgeguard?style=social" alt="Stars"></a>
-  <img src="https://img.shields.io/badge/AI-Local%20Only-28a745" alt="Local AI">
-  <img src="https://img.shields.io/badge/Dependencies-Zero-blue" alt="Zero Dependencies">
+  <a href="https://marketplace.visualstudio.com/items?itemName=wedgemethod.wedgeguard"><img src="https://img.shields.io/badge/VS%20Code-Marketplace-007ACC?logo=visualstudiocode&logoColor=white&style=flat-square" alt="VS Code Marketplace"></a>
+  <a href="https://github.com/jakeolschewski/wedgeguard/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT"></a>
+  <a href="https://github.com/jakeolschewski/wedgeguard/stargazers"><img src="https://img.shields.io/github/stars/jakeolschewski/wedgeguard?style=flat-square" alt="Stars"></a>
+  <a href="https://github.com/jakeolschewski/wedgeguard/network/members"><img src="https://img.shields.io/github/forks/jakeolschewski/wedgeguard?style=flat-square" alt="Forks"></a>
+  <a href="https://github.com/jakeolschewski/wedgeguard/issues"><img src="https://img.shields.io/github/issues/jakeolschewski/wedgeguard?style=flat-square" alt="Issues"></a>
+  <a href="https://github.com/jakeolschewski/wedgeguard/commits/main"><img src="https://img.shields.io/github/last-commit/jakeolschewski/wedgeguard?style=flat-square" alt="Last Commit"></a>
+  <img src="https://img.shields.io/badge/AI-Local%20Only-28a745?style=flat-square" alt="Local AI">
+  <img src="https://img.shields.io/badge/Dependencies-Zero-blue?style=flat-square" alt="Zero Dependencies">
+  <a href="https://thewedgemethodai.com"><img src="https://img.shields.io/badge/Built%20by-WEDGE%20Method-6B3FA0?style=flat-square" alt="Built by WEDGE Method"></a>
+</p>
+
+<p align="center">
+  Part of the <strong><a href="https://thewedgemethodai.com">WEDGE Method ecosystem</a></strong> — AI strategy and implementation for modern businesses.
 </p>
 
 ---
@@ -212,6 +220,20 @@ npm install
 npm run compile
 # Press F5 in VS Code to launch Extension Development Host
 ```
+
+**Ways to contribute:**
+- [Report a bug](https://github.com/jakeolschewski/wedgeguard/issues/new) — include your VS Code version, OS, and steps to reproduce
+- [Request a feature](https://github.com/jakeolschewski/wedgeguard/issues/new) — describe the use case and what you'd expect
+- [Submit a PR](https://github.com/jakeolschewski/wedgeguard/pulls) — bug fixes and small improvements are always welcome
+- [Star the repo](https://github.com/jakeolschewski/wedgeguard/stargazers) — helps other developers discover WedgeGuard
+- [Leave a review](https://marketplace.visualstudio.com/items?itemName=wedgemethod.wedgeguard&ssr=false#review-details) — VS Code Marketplace reviews help the extension grow
+
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=jakeolschewski/wedgeguard&type=Date)](https://star-history.com/#jakeolschewski/wedgeguard&Date)
+
+---
 
 ## License
 
