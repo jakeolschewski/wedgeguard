@@ -27,6 +27,15 @@
 
 ---
 
+## 🛡️ Need Enterprise AI Guardrails?
+
+WedgeGuard is the open-source starting point. For teams that need production-grade AI governance,
+I offer consulting on AI safety, code quality automation, and custom VS Code tooling.
+
+**[→ Apply for a free AI Discovery Call](https://docs.google.com/forms/d/e/1FAIpQLSd0GSjcTxKsTopJkaXzH6WvkfQ8_d5hzWZKkfZ9QqmesWGPig/viewform)**
+
+---
+
 ## The Problem
 
 AI coding tools are powerful, but they have a fatal flaw: **they don't know which code they shouldn't touch.**
@@ -253,3 +262,10 @@ Also check out:
 <p align="center">
   <strong>Your code. Your rules. AI that listens.</strong>
 </p>
+
+## 🛡️ Need Enterprise AI Guardrails?
+
+WedgeGuard is the open-source starting point. For teams that need production-grade AI governance,
+I offer consulting on AI safety, code quality automation, and custom VS Code tooling.
+
+**[→ Apply for a free AI Discovery Call](https://docs.google.com/forms/d/e/1FAIpQLSd0GSjcTxKsTopJkaXzH6WvkfQ8_d5hzWZKkfZ9QqmesWGPig/viewform)**
